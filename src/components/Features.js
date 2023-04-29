@@ -33,7 +33,7 @@ const Features = () => {
                   adventure.
                 </p>
                 <a
-                  href=""
+                  href="https://florishers-edge.vercel.app/"
                   className="relative flex mt-2 text-sm font-medium text-indigo-500 underline"
                 >
                   Learn More
