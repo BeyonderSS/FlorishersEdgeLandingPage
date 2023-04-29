@@ -33,7 +33,7 @@ const Features = () => {
                   adventure.
                 </p>
                 <a
-                  href="#_"
+                  href=""
                   className="relative flex mt-2 text-sm font-medium text-indigo-500 underline"
                 >
                   Learn More
@@ -60,7 +60,7 @@ const Features = () => {
                   that makes every meal effortless.
                 </p>
                 <a
-                  href="#_"
+                  href=""
                   className="relative flex mt-2 text-sm font-medium text-indigo-500 underline"
                 >
                   Learn More
@@ -87,20 +87,20 @@ const Features = () => {
                   platform that adapts to your business.
                 </p>
                 {/* <a
-                  href="#_"
+                  href=""
                   className="relative flex mt-2 text-sm font-medium text-indigo-500 underline"
                 >
                   Learn More
                 </a> */}
 
               <div
-                class="p-2 bg-indigo-800 items-center text-indigo-100 leading-none rounded-full flex lg:inline-flex pt-2"
+                className="p-2 bg-indigo-800 items-center text-indigo-100 leading-none rounded-full flex lg:inline-flex pt-2"
                 role="alert"
               >
-                <span class="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3">
+                <span className="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3">
                   Appologies!
                 </span>
-                <span class="font-semibold mr-2 text-left flex-auto">
+                <span className="font-semibold mr-2 text-left flex-auto">
                   Under Developmet{" "}
                 </span>
               </div>

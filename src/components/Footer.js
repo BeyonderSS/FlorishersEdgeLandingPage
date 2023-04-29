@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="container flex flex-col justify-between max-w-6xl px-4 mx-auto overflow-hidden lg:flex-row">
           <div className="w-full pl-12 mr-4 text-left lg:w-1/4 sm:text-center sm:pl-0 lg:text-left">
             <a
-              href="/"
+              href=""
               className="flex justify-start block text-left sm:text-center lg:text-left sm:justify-center lg:justify-start"
             >
               <span className="flex items-start sm:items-center">
@@ -74,7 +74,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#_"
+                  href=""
                   className="inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600"
                 >
                   Privacy
@@ -82,7 +82,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#_"
+                  href=""
                   className="inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600"
                 >
                   Terms of Service
