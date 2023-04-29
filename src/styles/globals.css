@@ -1,27 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@media (max-width: 1520px) {
+  .left-svg {
+    display: none;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* small css for the mobile nav close */
+#nav-mobile-btn.close span:first-child {
+  transform: rotate(45deg);
+  top: 4px;
+  position: relative;
+  background: #a0aec0;
+}
+
+#nav-mobile-btn.close span:nth-child(2) {
+  transform: rotate(-45deg);
+  margin-top: 0px;
+  background: #a0aec0;
+}
+.animate-draw {
+  animation: draw 1.5s ease forwards;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
 }
