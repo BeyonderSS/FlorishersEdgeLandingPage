@@ -1,0 +1,177 @@
+{
+  "courses": [
+    {
+      "mainHeading": "Class 4th",
+      "subHeading": "School",
+      "price": "25K-32K"
+    },
+
+    {
+      "mainHeading": "Class 5th",
+      "subHeading": "School",
+      "price": "27K-35K"
+    },
+    {
+      "mainHeading": "Class 6th",
+      "subHeading": "School",
+      "price": "27K-35K"
+    },
+    {
+      "mainHeading": "Class 7th",
+      "subHeading": "School",
+      "price": "28K-36.4K"
+    },
+    {
+      "mainHeading": "Class 8th",
+      "subHeading": "School",
+      "price": "28K-36.4K"
+    },
+    {
+      "mainHeading": "Class 9th",
+      "subHeading": "School",
+      "price": "28K-36.4K"
+    },
+    {
+      "mainHeading": "Class 10th",
+      "subHeading": "School",
+      "price": "30K-39K"
+    },
+    {
+      "mainHeading": "Class 11th",
+      "subHeading": "School",
+      "price": "35K-45.5K"
+    },
+    {
+      "mainHeading": "Class 12th",
+      "subHeading": "School",
+      "price": "35K-45.5K"
+    },
+    {
+      "mainHeading": "Cyber Security",
+      "subHeading": "Upscaling",
+      "price": "120K-150K"
+    },
+    {
+      "mainHeading": "Data Science",
+      "subHeading": "Upscaling",
+      "price": "120K-150K"
+    },
+    {
+      "mainHeading": "Python",
+      "subHeading": "Upscaling",
+      "price": "9K"
+    },
+    {
+      "mainHeading": "Advance Java",
+      "subHeading": "Upscaling",
+      "price": "9K"
+    },
+    {
+      "mainHeading": "C++",
+      "subHeading": "Upscaling",
+      "price": "6K"
+    },
+    {
+      "mainHeading": "ITI",
+      "subHeading": "College",
+      "price": "10.5K"
+    },
+    {
+      "mainHeading": "Textile Diploma",
+      "subHeading": "College",
+      "price": "20K"
+    },
+    {
+      "mainHeading": "Garment Diploma",
+      "subHeading": "College",
+      "price": "21K"
+    },
+    {
+      "mainHeading": "Mechanical diploma",
+      "subHeading": "College",
+      "price": "20K"
+    },
+    {
+      "mainHeading": "Civil Diploma",
+      "subHeading": "College",
+      "price": "20K"
+    },
+    {
+      "mainHeading": "B.A",
+      "subHeading": "College",
+      "price": "18K"
+    },
+    {
+      "mainHeading": "B.sc",
+      "subHeading": "College",
+      "price": "25K"
+    },
+    {
+      "mainHeading": "B.com",
+      "subHeading": "College",
+      "price": "25K"
+    },
+    {
+      "mainHeading": "BCA",
+      "subHeading": "College",
+      "price": "30K"
+    },
+    {
+      "mainHeading": "BBA",
+      "subHeading": "College",
+      "price": "28K"
+    },
+    {
+      "mainHeading": "Enviorment Course",
+      "subHeading": "College",
+      "price": "22K"
+    },
+    {
+      "mainHeading": "Health Saftey Diploma",
+      "subHeading": "College",
+      "price": "23K"
+    },
+    {
+      "mainHeading": "B.tech [Any Branch]",
+      "subHeading": "College",
+      "price": "31K"
+    },
+    {
+      "mainHeading": "MBA [Any Branch]",
+      "subHeading": "College",
+      "price": "31K"
+    },
+    {
+      "mainHeading": "Lab Technician",
+      "subHeading": "College",
+      "price": "27K"
+    },
+    {
+      "mainHeading": "GNM nursing",
+      "subHeading": "College",
+      "price": "37K"
+    },
+    {
+      "mainHeading": "ANM Nursing",
+      "subHeading": "College",
+      "price": "30K"
+    },
+    {
+      "mainHeading": "M.sc",
+      "subHeading": "College",
+      "price": "29K"
+    },
+    {
+      "mainHeading": "B.ed",
+      "subHeading": "College",
+      "price": "35K"
+    },
+    {
+      "mainHeading": "PhD",
+      "subHeading": "College",
+      "price": "45K"
+    }
+  
+  
+  ]
+}
