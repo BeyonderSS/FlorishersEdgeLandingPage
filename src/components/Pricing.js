@@ -50,12 +50,14 @@ const Pricing = () => {
                   {" "}
                   <span className=" text-purple-800">S</span>chool
                 </h3>
-                <hr class="h-px mb-4 bg-gray-300 border-0 "></hr>
+                <hr className="h-px mb-4 bg-gray-300 border-0 "></hr>
                 <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
                   {schoolCourses.map((course) => (
-                    <div className="">
+                    <div
+                    key={course.id}
+                    className="">
                       <div
-                        key={course.mainHeading}
+                        
                         className="flex flex-col p-6 mx-auto max-w-lg md:w-96 w-72 h-auto text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow  xl:p-8 "
                       >
                         <h3 className="mb-4 text-2xl font-semibold">
@@ -86,11 +88,11 @@ const Pricing = () => {
                 <h3 className="text-4xl flex py-10 font-semibold justify-center items-center">
                   Up <span className="text-purple-800">scaling </span>
                 </h3>
-                <hr class="h-px mb-4 bg-gray-300 border-0 "></hr>
+                <hr className="h-px mb-4 bg-gray-300 border-0 "></hr>
                 <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
                   {upscalingCourses.map((course) => (
                     <div
-                      key={course.mainHeading}
+                      key={course.id}
                       className="flex flex-col p-6 mx-auto max-w-lg md:w-96 w-72 h-auto text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow  xl:p-8 "
                     >
                       <h3 className="mb-4 text-2xl font-semibold">
@@ -119,11 +121,11 @@ const Pricing = () => {
                 <h3 className="text-4xl flex py-10 font-semibold justify-center items-center">
                   Col <span className="text-purple-800"> lege</span>
                 </h3>
-                <hr class="h-px mb-4 bg-gray-300 border-0 "></hr>
+                <hr className="h-px mb-4 bg-gray-300 border-0 "></hr>
                 <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
                   {collegeCourses.map((course) => (
                     <div
-                      key={course.mainHeading}
+                      key={course.id}
                       className="flex flex-col p-6 mx-auto max-w-lg md:w-96 w-72 h-auto text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow  xl:p-8 "
                     >
                       <h3 className="mb-4 text-2xl font-semibold">

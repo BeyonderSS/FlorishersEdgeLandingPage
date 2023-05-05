@@ -1,177 +1,189 @@
 {
   "courses": [
     {
+      "id": 1,
       "mainHeading": "Class 4th",
       "subHeading": "School",
       "price": "25K-32K"
     },
 
     {
+      "id": 2,
       "mainHeading": "Class 5th",
       "subHeading": "School",
       "price": "27K-35K"
     },
     {
+      "id": 3,
       "mainHeading": "Class 6th",
       "subHeading": "School",
       "price": "27K-35K"
     },
     {
+      "id": 4,
       "mainHeading": "Class 7th",
       "subHeading": "School",
       "price": "28K-36.4K"
     },
     {
+      "id": 5,
       "mainHeading": "Class 8th",
       "subHeading": "School",
       "price": "28K-36.4K"
     },
     {
+      "id": 6,
       "mainHeading": "Class 9th",
       "subHeading": "School",
       "price": "28K-36.4K"
     },
     {
+      "id": 7,
       "mainHeading": "Class 10th",
       "subHeading": "School",
       "price": "30K-39K"
     },
     {
+      "id": 8,
       "mainHeading": "Class 11th",
       "subHeading": "School",
       "price": "35K-45.5K"
     },
     {
+      "id": 9,
       "mainHeading": "Class 12th",
       "subHeading": "School",
       "price": "35K-45.5K"
     },
     {
+      "id": 10,
       "mainHeading": "Cyber Security",
       "subHeading": "Upscaling",
       "price": "120K-150K"
     },
     {
+      "id": 11,
       "mainHeading": "Data Science",
       "subHeading": "Upscaling",
       "price": "120K-150K"
     },
     {
+      "id": 12,
       "mainHeading": "Python",
       "subHeading": "Upscaling",
       "price": "9K"
     },
     {
+      "id": 13,
       "mainHeading": "Advance Java",
       "subHeading": "Upscaling",
       "price": "9K"
     },
     {
+      "id": 14,
       "mainHeading": "C++",
       "subHeading": "Upscaling",
       "price": "6K"
     },
     {
+      "id": 15,
       "mainHeading": "ITI",
       "subHeading": "College",
       "price": "10.5K"
     },
     {
+      "id": 16,
       "mainHeading": "Textile Diploma",
       "subHeading": "College",
       "price": "20K"
     },
     {
+      "id": 17,
       "mainHeading": "Garment Diploma",
       "subHeading": "College",
       "price": "21K"
     },
     {
+      "id": 34,
       "mainHeading": "Mechanical diploma",
       "subHeading": "College",
       "price": "20K"
     },
     {
+      "id": 18,
       "mainHeading": "Civil Diploma",
       "subHeading": "College",
       "price": "20K"
     },
+    { "id": 19, "mainHeading": "B.A", "subHeading": "College", "price": "18K" },
     {
-      "mainHeading": "B.A",
-      "subHeading": "College",
-      "price": "18K"
-    },
-    {
+      "id": 20,
       "mainHeading": "B.sc",
       "subHeading": "College",
       "price": "25K"
     },
     {
+      "id": 21,
       "mainHeading": "B.com",
       "subHeading": "College",
       "price": "25K"
     },
+    { "id": 22, "mainHeading": "BCA", "subHeading": "College", "price": "30K" },
+    { "id": 23, "mainHeading": "BBA", "subHeading": "College", "price": "28K" },
     {
-      "mainHeading": "BCA",
-      "subHeading": "College",
-      "price": "30K"
-    },
-    {
-      "mainHeading": "BBA",
-      "subHeading": "College",
-      "price": "28K"
-    },
-    {
+      "id": 24,
       "mainHeading": "Enviorment Course",
       "subHeading": "College",
       "price": "22K"
     },
     {
+      "id": 25,
       "mainHeading": "Health Saftey Diploma",
       "subHeading": "College",
       "price": "23K"
     },
     {
+      "id": 26,
       "mainHeading": "B.tech [Any Branch]",
       "subHeading": "College",
       "price": "31K"
     },
     {
+      "id": 27,
       "mainHeading": "MBA [Any Branch]",
       "subHeading": "College",
       "price": "31K"
     },
     {
+      "id": 28,
       "mainHeading": "Lab Technician",
       "subHeading": "College",
       "price": "27K"
     },
     {
+      "id": 29,
       "mainHeading": "GNM nursing",
       "subHeading": "College",
       "price": "37K"
     },
     {
+      "id": 30,
       "mainHeading": "ANM Nursing",
       "subHeading": "College",
       "price": "30K"
     },
     {
+      "id": 31,
       "mainHeading": "M.sc",
       "subHeading": "College",
       "price": "29K"
     },
     {
+      "id": 32,
       "mainHeading": "B.ed",
       "subHeading": "College",
       "price": "35K"
     },
-    {
-      "mainHeading": "PhD",
-      "subHeading": "College",
-      "price": "45K"
-    }
-  
-  
+    { "id": 33, "mainHeading": "PhD", "subHeading": "College", "price": "45K" }
   ]
 }

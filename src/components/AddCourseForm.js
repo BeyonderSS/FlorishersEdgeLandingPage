@@ -21,7 +21,16 @@ const AddCourseForm = () => {
       fileReader.onload = async () => {
         const data = JSON.parse(fileReader.result);
         for (const course of data.courses) {
+          const querySnapshot = await getDocs(
+            query(coursesCollection, where("id", "==", course.id))
+          );
+          if (!querySnapshot.empty) {
+            setErrorMessage(`ID ${course.id} already exists`);
+            setLoading(false);
+            return;
+          }
           await addDoc(coursesCollection, {
+            id: course.id,
             mainHeading: course.mainHeading,
             subHeading: course.subHeading,
             price: course.price,
