@@ -89,101 +89,101 @@
       "id": 15,
       "mainHeading": "ITI",
       "subHeading": "College",
-      "price": "10.5K"
+      "price": "42K"
     },
     {
       "id": 16,
       "mainHeading": "Textile Diploma",
       "subHeading": "College",
-      "price": "20K"
+      "price": "80K"
     },
     {
       "id": 17,
       "mainHeading": "Garment Diploma",
       "subHeading": "College",
-      "price": "21K"
+      "price": "84K"
     },
     {
       "id": 34,
       "mainHeading": "Mechanical diploma",
       "subHeading": "College",
-      "price": "20K"
+      "price": "80K"
     },
     {
       "id": 18,
       "mainHeading": "Civil Diploma",
       "subHeading": "College",
-      "price": "20K"
+      "price": "80K"
     },
-    { "id": 19, "mainHeading": "B.A", "subHeading": "College", "price": "18K" },
+    { "id": 19, "mainHeading": "B.A", "subHeading": "College", "price": "72K" },
     {
       "id": 20,
       "mainHeading": "B.sc",
       "subHeading": "College",
-      "price": "25K"
+      "price": "100K"
     },
     {
       "id": 21,
       "mainHeading": "B.com",
       "subHeading": "College",
-      "price": "25K"
+      "price": "100K"
     },
-    { "id": 22, "mainHeading": "BCA", "subHeading": "College", "price": "30K" },
-    { "id": 23, "mainHeading": "BBA", "subHeading": "College", "price": "28K" },
+    { "id": 22, "mainHeading": "BCA", "subHeading": "College", "price": "120K" },
+    { "id": 23, "mainHeading": "BBA", "subHeading": "College", "price": "112K" },
     {
       "id": 24,
       "mainHeading": "Enviorment Course",
       "subHeading": "College",
-      "price": "22K"
+      "price": "88K"
     },
     {
       "id": 25,
       "mainHeading": "Health Saftey Diploma",
       "subHeading": "College",
-      "price": "23K"
+      "price": "92K"
     },
     {
       "id": 26,
       "mainHeading": "B.tech [Any Branch]",
       "subHeading": "College",
-      "price": "31K"
+      "price": "124K"
     },
     {
       "id": 27,
       "mainHeading": "MBA [Any Branch]",
       "subHeading": "College",
-      "price": "31K"
+      "price": "124K"
     },
     {
       "id": 28,
       "mainHeading": "Lab Technician",
       "subHeading": "College",
-      "price": "27K"
+      "price": "108K"
     },
     {
       "id": 29,
       "mainHeading": "GNM nursing",
       "subHeading": "College",
-      "price": "37K"
+      "price": "148K"
     },
     {
       "id": 30,
       "mainHeading": "ANM Nursing",
       "subHeading": "College",
-      "price": "30K"
+      "price": "120K"
     },
     {
       "id": 31,
       "mainHeading": "M.sc",
       "subHeading": "College",
-      "price": "29K"
+      "price": "116K"
     },
     {
       "id": 32,
       "mainHeading": "B.ed",
       "subHeading": "College",
-      "price": "35K"
+      "price": "140K"
     },
-    { "id": 33, "mainHeading": "PhD", "subHeading": "College", "price": "45K" }
+    { "id": 33, "mainHeading": "PhD", "subHeading": "College", "price": "180K" }
   ]
 }
