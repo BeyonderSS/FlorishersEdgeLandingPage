@@ -95,6 +95,7 @@ const Footer = () => {
           </div>
         </div>
         <hr className="border-gray-800 my-8" />
+        
         <div className="flex flex-wrap justify-between items-center">
           <div className="w-full md:w-auto mb-4 md:mb-0">
             <p className="text-gray-400">
@@ -102,7 +103,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="w-full md:w-auto">
-            <ul className="list-none flex text-gray-950">
+            <ul className="list-none flex text-gray-900">
               <li className="mr-4">
                 <a
                   href="https://storyset.com/business"

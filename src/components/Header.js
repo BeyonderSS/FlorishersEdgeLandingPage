@@ -30,15 +30,15 @@ const Header = () => {
                 href="#"
                 class="text-gray-600 hover:text-purple-500 transition duration-300"
               >
-                Our Key Products
+                Our Products
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="/"
                 class="text-gray-600 hover:text-purple-500 transition duration-300"
               >
-                Services We Provide
+                Services 
               </a>
             </li>
             <li>
