@@ -9,11 +9,9 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/3 lg:w-1/4 mb-8 md:mb-0">
             <h2 className="text-lg font-bold text-white mb-4">
-              Flourishers  <span className="text-purple-900">Edge .</span>
+              Flourishers <span className="text-purple-900">Edge .</span>
             </h2>
-            <p className="text-gray-400">
-             
-            </p>
+            <p className="text-gray-400"></p>
           </div>
           <div className="w-full md:w-1/3 lg:w-1/4 mb-8 md:mb-0">
             <h2 className="text-lg font-bold text-white mb-4">Contact Us</h2>
@@ -39,7 +37,8 @@ const Footer = () => {
                   href="#"
                   className="text-gray-400 hover:text-white transition duration-300 ease-in-out"
                 >
-                  Address:flourishersedge near 11 miles hausangabad road Bhopal 462046
+                  Address:flourishersedge near 11 miles hausangabad road Bhopal
+                  462046
                 </a>
               </li>
             </ul>
@@ -109,7 +108,7 @@ const Footer = () => {
                   href="https://storyset.com/business"
                   className=" hover:text-white transition duration-300 ease-in-out"
                 >
-                  Svg's by Business illustrations by Storyset
+                  Svg&apos;s by Business illustrations by Storyset
                 </a>
               </li>
               <li className="mr-4">
