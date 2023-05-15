@@ -35,7 +35,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                href="/"
+                href="#"
                 class="text-gray-600 hover:text-purple-500 transition duration-300"
               >
                 Services 
