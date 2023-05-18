@@ -35,10 +35,10 @@ const ServicesProvided = () => {
               establish a strong online presence.
             </p>
             <a
-              href="#"
+              href="/Support/ContactUs"
               className="text-purple-600 hover:text-purple-800 font-bold"
             >
-              Learn More
+              Get In Touch
             </a>
           </div>
           <div className="bg-white rounded-lg shadow-lg p-8">
@@ -48,10 +48,10 @@ const ServicesProvided = () => {
               processes and improve efficiency.
             </p>
             <a
-              href="#"
+              href="/Support/ContactUs"
               className="text-purple-600 hover:text-purple-800 font-bold"
             >
-              Learn More
+              Get In Touch
             </a>
           </div>
           <div className="bg-white rounded-lg shadow-lg p-8">
@@ -61,10 +61,10 @@ const ServicesProvided = () => {
               needs and achieve your goals.
             </p>
             <a
-              href="#"
+              href="/Support/ContactUs"
               className="text-purple-600 hover:text-purple-800 font-bold"
             >
-              Learn More
+              Get In Touch
             </a>
           </div>
           <div className="bg-white rounded-lg shadow-lg p-8">
@@ -74,10 +74,10 @@ const ServicesProvided = () => {
               succeed in the digital world.
             </p>
             <a
-              href="#"
+              href="/Support/ContactUs"
               className="text-purple-600 hover:text-purple-800 font-bold"
             >
-              Learn More
+              Get In Touch
             </a>
           </div>
         </div>

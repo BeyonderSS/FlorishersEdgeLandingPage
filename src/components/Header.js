@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaBars, FaTimes } from "react-icons/fa";
+import Link from "next/link";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,48 +11,48 @@ const Header = () => {
   };
 
   return (
-    <header class="bg-white shadow-lg z-50" >
-      <nav class="container mx-auto px-4 py-3 flex justify-between items-center ">
-        <div class="font-bold text-2xl py-2  ">
+    <header className="bg-white shadow-lg z-50" >
+      <nav className="container mx-auto px-4 py-3 flex justify-between items-center ">
+        <Link href="/" className="font-bold text-2xl py-2  ">
           Flourishers  <span className="text-purple-600">Edge .</span>
-        </div>
-        <div class="hidden md:block">
-          <ul class="flex space-x-4">
+        </Link>
+        <div className="hidden md:block">
+          <ul className="flex space-x-4">
             <li>
               <a
-                href="#"
-                class="text-gray-600 hover:text-purple-500 transition duration-300"
+                href="#Hero"
+                className="text-gray-600 hover:text-purple-500 transition duration-300"
               >
                 Home
               </a>
             </li>
             <li>
               <a
-                href="#"
-                class="text-gray-600 hover:text-purple-500 transition duration-300"
+                href="#Features"
+                className="text-gray-600 hover:text-purple-500 transition duration-300"
               >
                 Our Products
               </a>
             </li>
             <li>
               <a
-                href="#"
-                class="text-gray-600 hover:text-purple-500 transition duration-300"
+                href="#ServicesProvided"
+                className="text-gray-600 hover:text-purple-500 transition duration-300"
               >
                 Services 
               </a>
             </li>
             <li>
               <a
-                href="#"
-                class="text-gray-600 hover:text-purple-500 transition duration-300"
+                href="/Support/ContactUs"
+                className="text-gray-600 hover:text-purple-500 transition duration-300"
               >
                 Get In touch
               </a>
             </li>
           </ul>
         </div>
-        <div class="md:hidden">
+        <div className="md:hidden">
           <button onClick={toggleMenu}>
             {isOpen ? (
               <FaTimes className="text-xl text-purple-600" />
@@ -68,13 +69,13 @@ const Header = () => {
           animate={{ height: "auto", opacity: 1 }}
           exit={{ height: 0, opacity: 0 }}
           transition={{ duration: 0.2 }}
-          class="md:hidden bg-white"
+          className="md:hidden bg-white"
         >
-          <ul class="flex flex-col space-y-4 px-4 py-2">
+          <ul className="flex flex-col space-y-4 px-4 py-2">
             <li>
               <a
                 href="#"
-                class="text-gray-600 hover:text-purple-500 transition duration-300"
+                className="text-gray-600 hover:text-purple-500 transition duration-300"
               >
                 Home
               </a>
@@ -82,7 +83,7 @@ const Header = () => {
             <li>
               <a
                 href="#"
-                class="text-gray-600 hover:text-purple-500 transition duration-300"
+                className="text-gray-600 hover:text-purple-500 transition duration-300"
               >
                 Our Key Products
               </a>
@@ -90,7 +91,7 @@ const Header = () => {
             <li>
               <a
                 href="#"
-                class="text-gray-600 hover:text-purple-500 transition duration-300"
+                className="text-gray-600 hover:text-purple-500 transition duration-300"
               >
                 Services We Provide
               </a>
@@ -98,7 +99,7 @@ const Header = () => {
             <li>
               <a
                 href="#"
-                class="text-gray-600 hover:text-purple-500 transition duration-300"
+                className="text-gray-600 hover:text-purple-500 transition duration-300"
               >
                 Get In touch
               </a>

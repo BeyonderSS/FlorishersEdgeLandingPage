@@ -1,24 +1,25 @@
+import Link from "next/link";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 py-8">
+    <footer className="bg-gray-900 py-8 w-full">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/3 lg:w-1/4 mb-8 md:mb-0">
-            <h2 className="text-lg font-bold text-white mb-4">
+            <Link href="/" className="text-lg font-bold text-white mb-4">
               Flourishers <span className="text-purple-900">Edge .</span>
-            </h2>
+            </Link>
             <p className="text-gray-400"></p>
           </div>
           <div className="w-full md:w-1/3 lg:w-1/4 mb-8 md:mb-0">
-            <h2 className="text-lg font-bold text-white mb-4">Contact Us</h2>
+            <Link href="/Support/ContactUs" className="text-lg font-bold text-white mb-4">Contact Us</Link>
             <ul className="list-none">
               <li className="mb-2">
                 <a
-                  href="#"
+              
                   className="text-gray-400 hover:text-white transition duration-300 ease-in-out"
                 >
                   Email: info@flourishersedge.com
@@ -34,7 +35,7 @@ const Footer = () => {
               </li> */}
               <li className="mb-2">
                 <a
-                  href="#"
+            
                   className="text-gray-400 hover:text-white transition duration-300 ease-in-out"
                 >
                   Address:flourishersedge near 11 miles hausangabad road Bhopal
@@ -48,7 +49,7 @@ const Footer = () => {
             <ul className="list-none">
               <li className="mb-2">
                 <a
-                  href="#"
+                  href="/Support/TermsAndConditions"
                   className="text-gray-400 hover:text-white transition duration-300 ease-in-out"
                 >
                   Terms and Conditions
@@ -56,7 +57,7 @@ const Footer = () => {
               </li>
               <li className="mb-2">
                 <a
-                  href="#"
+                  href="/Support/AboutUs"
                   className="text-gray-400 hover:text-white transition duration-300 ease-in-out"
                 >
                   About Us
@@ -103,7 +104,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="w-full md:w-auto">
-            <ul className="list-none flex text-gray-900">
+            <ul className="list-none  text-gray-900">
               <li className="mr-4">
                 <a
                   href="https://storyset.com/business"

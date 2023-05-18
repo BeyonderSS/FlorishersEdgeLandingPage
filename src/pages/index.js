@@ -10,10 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div className="overflow-x-hidden">
-      <section >
-        <Header />
-      </section>
-      <section id="Hero" >
+      <section id="Hero">
         <Hero />
       </section>
       <section id="Features">
@@ -21,9 +18,6 @@ export default function Home() {
       </section>
       <section id="ServicesProvided">
         <ServicesProvided />
-      </section>
-      <section>
-        <Footer />
       </section>
     </div>
   );
