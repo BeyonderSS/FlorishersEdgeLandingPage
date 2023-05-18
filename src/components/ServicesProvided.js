@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 const ServicesProvided = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center md:justify-between bg-purple-200 py-10 px-5">
@@ -34,12 +35,12 @@ const ServicesProvided = () => {
               We provide high-quality website development services to help you
               establish a strong online presence.
             </p>
-            <a
+            <Link
               href="/Support/ContactUs"
               className="text-purple-600 hover:text-purple-800 font-bold"
             >
               Get In Touch
-            </a>
+            </Link>
           </div>
           <div className="bg-white rounded-lg shadow-lg p-8">
             <h3 className="text-xl font-bold mb-4">IT Solutions</h3>
@@ -47,12 +48,12 @@ const ServicesProvided = () => {
               Our IT solutions are designed to help you streamline your business
               processes and improve efficiency.
             </p>
-            <a
+            <Link
               href="/Support/ContactUs"
               className="text-purple-600 hover:text-purple-800 font-bold"
             >
               Get In Touch
-            </a>
+            </Link>
           </div>
           <div className="bg-white rounded-lg shadow-lg p-8">
             <h3 className="text-xl font-bold mb-4">Our Key Products</h3>
@@ -60,12 +61,12 @@ const ServicesProvided = () => {
               We offer a range of key products to help you meet your business
               needs and achieve your goals.
             </p>
-            <a
+            <Link
               href="/Support/ContactUs"
               className="text-purple-600 hover:text-purple-800 font-bold"
             >
               Get In Touch
-            </a>
+            </Link>
           </div>
           <div className="bg-white rounded-lg shadow-lg p-8">
             <h3 className="text-xl font-bold mb-4">Others</h3>
@@ -73,12 +74,12 @@ const ServicesProvided = () => {
               We also offer other services to help you grow your business and
               succeed in the digital world.
             </p>
-            <a
+            <Link
               href="/Support/ContactUs"
               className="text-purple-600 hover:text-purple-800 font-bold"
             >
               Get In Touch
-            </a>
+            </Link>
           </div>
         </div>
       </div>

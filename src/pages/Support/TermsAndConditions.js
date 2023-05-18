@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function TermsAndConditions() {
@@ -13,13 +14,13 @@ export default function TermsAndConditions() {
                                 Terms And Conditions
                             </h2>
                             <p className="text-gray-500">
-                                Didn't you want to contact ?
-                                <a
+                                Didn&apos;t you want to contact ?
+                                <Link
                                     href="/Support/ContactUs"
                                     className="text-blue-600 hover:text-blue-700 focus:text-blue-700 active:text-blue-800 transition duration-300"
                                 >
                                     Contact Us
-                                </a>
+                                </Link>
                                 .
                             </p>
                         </div>
@@ -39,7 +40,7 @@ export default function TermsAndConditions() {
                                 <br />
                                 Your use of the FLOURISHERS EDGE website and its
                                 services and tools are governed by the following
-                                terms and conditions ("Terms of Use") as
+                                terms and conditions (&quot;Terms of Use&quot;) as
                                 applicable to FLOURISHERS EDGE including the
                                 applicable policies which are incorporated
                                 herein by way of reference. By mere use of
@@ -78,7 +79,7 @@ export default function TermsAndConditions() {
                                 www.flourishersedge.com, the Website from which
                                 these terms of use were accessed from and
                                 include the FLOURISHERS EDGE Services. The term
-                                "FLOURISHERS EDGE", "We", "Us", "Our" shall mean
+                                &quot;FLOURISHERS EDGE&quot;, &quot;We&quot;, &quot;Us&quot;, &quot;Our&quot; shall mean
                                 AppItSimple Infotek Pvt. Ltd, and its
                                 affiliates.
                                 <br />
@@ -98,7 +99,7 @@ export default function TermsAndConditions() {
                                 and those who register to avail the above
                                 mentioned services. For the purpose of these
                                 Terms of Use, wherever the context so requires
-                                "You" or "User" shall mean any natural or legal
+                                &quot;You&quot; or &quot;User&quot; shall mean any natural or legal
                                 person who has agreed to become a user on
                                 FLOURISHERS EDGE Website by providing data while
                                 registering on the Website as Registered User.
@@ -110,8 +111,8 @@ export default function TermsAndConditions() {
                             <p className="text-gray-500 mb-12">
                                 o Your use of the Service, including any
                                 content, information or functionality contained
-                                within it, is provided 'as is' and 'as
-                                available' with no representations or warranties
+                                within it, is provided &apos;as is&apos; and &apos;as
+                                available&apos; with no representations or warranties
                                 of any kind, either expressed or implied,
                                 including but not limited to, the implied
                                 warranties of merchantability, fitness for a
@@ -210,27 +211,27 @@ export default function TermsAndConditions() {
                             <p className="text-gray-500 mb-12">
                                 o For the purposes of this section:
                                 <br />
-                                i. “Controller”, “Processor” and “Personal Data”
+                                i. &quot;Controller&quot;, &quot;Processor&quot; and &quot;Personal Data&quot;
                                 shall assume the meanings ascribed to them as
                                 under EU General Data Protection Regulation (EU)
-                                2016/279 (“GDPR”) unless otherwise defined.
+                                2016/279 (&quot;GDPR&quot;) unless otherwise defined.
                                 <br />
-                                ii. “Applicable Data Protection Laws” means
+                                ii. &quot;Applicable Data Protection Laws&quot; means
                                 privacy, data security, and data protection
                                 laws, directives, and regulations in any
                                 jurisdiction applicable to the Personal Data
                                 processed for the Services.
                                 <br />
-                                iii. “Primary Purpose” shall mean aiding or
+                                iii. &quot;Primary Purpose&quot; shall mean aiding or
                                 assisting Users in their use of the
                                 Flourishersedge Services.
                                 <br />
-                                iv. “Receiving Controller” means the software
+                                iv. &quot;Receiving Controller&quot; means the software
                                 vendors that receive the Personal Data from
                                 Flourishersedge in connection with the
                                 Flourishersedge Services.
                                 <br />
-                                v. “Third-Party Provider” means any agent or
+                                v. &quot;Third-Party Provider&quot; means any agent or
                                 other third party that the Receiving Controller
                                 authorizes to act on its behalf.
                                 <br />
@@ -250,8 +251,8 @@ export default function TermsAndConditions() {
                                 Laws, before processing Personal Data to contact
                                 prospective software buyers for any purposes
                                 other than the Primary Purpose, including for
-                                advertising, promotion or marketing (“Secondary
-                                Purpose”), the Receiving Controller will provide
+                                advertising, promotion or marketing (&quot;Secondary
+                                Purpose&quot;), the Receiving Controller will provide
                                 explicit notice to individuals in writing of the
                                 Secondary Purpose and maintain a mechanism
                                 enabling individuals to opt-out of the Secondary
@@ -328,22 +329,22 @@ export default function TermsAndConditions() {
                                 <br />
                                 i. Identity Check : Our team of experts see to
                                 it that the right person gives the review. To
-                                ensure this, they check upon the reviewer's
+                                ensure this, they check upon the reviewer&apos;s
                                 Name, Job Title, or Email Address. If the team
-                                fails in verifying the reviewer's identity, we
-                                won't
+                                fails in verifying the reviewer&apos;s identity, we
+                                won&apos;t
                                 <br />
                                 ii. Conflict of Interest : Our team will verify
                                 the name and company of the reviewer against the
                                 product he/she reviews. If in any way, he/she is
                                 found associated with the vendor or identified
-                                as a vendor's direct competitor, we won't
+                                as a vendor&apos;s direct competitor, we won&apos;t
                                 publish the review.
                                 <br />
                                 iii. Content Check : Each review gets evaluated
                                 by our team of experts to ensure that it is
                                 authentic and meets our quality standards. If
-                                the content doesn't match our Content Quality
+                                the content doesn&apos;t match our Content Quality
                                 Standards, we wont publish the review.
                                 <br />
                                 ▪ Our Content Quality Standards (which includes
@@ -407,20 +408,20 @@ export default function TermsAndConditions() {
                                 reviews or ratings by Flourishersedge. If any
                                 vendor involves such clauses to inflate the
                                 reviews/ratings, penalties will apply to the
-                                vendor's portal. Also, we reserve the right to
+                                vendor&apos;s portal. Also, we reserve the right to
                                 take down reviews on that basis.
                                 <br />
                                 ii. Vendors must not review their or a
                                 competitors product Flourishersedge strictly
                                 prohibits vendors from reviewing their own
-                                product or posting a review on the customer's
+                                product or posting a review on the customer&apos;s
                                 behalf. More so over, vendors must not post any
                                 reviews that direct any kind of strategic or
                                 financial benefit.Vendors are not allowed to
                                 collect a host of reviews for our site. Only the
                                 users can submit reviews directly to our website
                                 via the review form. We do not allow vendors to
-                                review their competitor's product even though it
+                                review their competitor&apos;s product even though it
                                 is based on the actual experience of using the
                                 product.
                                 <br />
@@ -441,16 +442,16 @@ export default function TermsAndConditions() {
                                 have a reason to suspect that the vendor is
                                 trying to abuse our system by unnecessarily
                                 flagging reviews for investigation, we may, at
-                                our discretion, impose penalties on the vendor's
+                                our discretion, impose penalties on the vendor&apos;s
                                 account.
                                 <br />
-                                These vendor's guidelines are applied equally to
+                                These vendor&apos;s guidelines are applied equally to
                                 all vendors regardless of their account status.
                                 Any violation of these guidelines is subject to
                                 penalties imposed by Flourishersedge and the
                                 law. We reserve the right to decide the
                                 penalties, which may include a comment on
-                                Vendor's profile or suspension of services.
+                                Vendor&apos;s profile or suspension of services.
                                 <br />
                                 <br />
                             </p>
@@ -515,7 +516,7 @@ export default function TermsAndConditions() {
                                 unlawful in any manner whatsoever; or which
                                 consists of or contains software viruses,
                                 political campaigning, commercial solicitation,
-                                chain letters, mass mailings or any "spam” to
+                                chain letters, mass mailings or any &quot;spam&quot; to
                                 cause annoyance, inconvenience or needless
                                 anxiety.s
                             </p>
@@ -681,7 +682,7 @@ export default function TermsAndConditions() {
                                 the performance or punctual performance of its
                                 obligations under these terms of use for so long
                                 as the relevant event of Force Majeure continues
-                                and to the extent that such Party’s performance
+                                and to the extent that such Party&quot;s performance
                                 is prevented or delayed. The occurrence of any
                                 event of Force Majeure affecting either party
                                 shall not give rise to any claim for damages or
@@ -760,7 +761,7 @@ export default function TermsAndConditions() {
                                 o The Vendor agrees and acknowledges that
                                 FLOURISHERS EDGE may re-use the Names as well as
                                 to use the Trademarks, Service marks and Logos
-                                ("marks"), of the Softwares listed on the
+                                (&quot;marks&quot;), of the Softwares listed on the
                                 Website for various purposes, including but not
                                 limited to lead-generation purpose and the
                                 Vendors or itsLicensors, shall not claim any
@@ -769,8 +770,8 @@ export default function TermsAndConditions() {
                                 <br />
                                 <br />o The vendor agree to grant
                                 Flourishersedge, permission to direct clicks
-                                from Flourishersedge's affiliate websites by
-                                opting for Flourishersedge's services
+                                from Flourishersedge&apos;s affiliate websites by
+                                opting for Flourishersedge&apos;s services
                                 <br />
                                 <br />
                                 o FLOURISHERS EDGE specifically disclaims

@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 const Hero = () => {
   return (
     <div>
@@ -13,12 +14,12 @@ const Hero = () => {
               Ready to create digital experiences that will leave a lasting
               impression? We can help.
             </p>
-            <a
+            <Link
               href="/Support/ContactUs"
               className="relative self-start inline-block w-auto px-8 py-4 mx-auto mt-0 text-base font-bold text-white bg-indigo-600 border-t border-gray-200 rounded-md shadow-xl sm:mt-1 fold-bold lg:mx-0"
             >
               Get In Touch Today!
-            </a>
+            </Link>
             {/* <!-- Integrates with section --> */}
             <motion.img
               animate="bubble"

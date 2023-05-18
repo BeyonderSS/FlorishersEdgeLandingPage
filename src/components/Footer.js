@@ -48,20 +48,20 @@ const Footer = () => {
             <h2 className="text-lg font-bold text-white mb-4">Links</h2>
             <ul className="list-none">
               <li className="mb-2">
-                <a
+                <Link
                   href="/Support/TermsAndConditions"
                   className="text-gray-400 hover:text-white transition duration-300 ease-in-out"
                 >
                   Terms and Conditions
-                </a>
+                </Link>
               </li>
               <li className="mb-2">
-                <a
+                <Link
                   href="/Support/AboutUs"
                   className="text-gray-400 hover:text-white transition duration-300 ease-in-out"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
