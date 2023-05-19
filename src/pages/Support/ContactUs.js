@@ -9,6 +9,8 @@ function ContactUs({ pageInfo }) {
   };
 
   return (
+    <div className=" bg-purple-100">
+
     <div className="h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-3xl justify-evenly mx-auto items-center md:w-full w-80 ">
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Contact
@@ -71,6 +73,7 @@ function ContactUs({ pageInfo }) {
           </button>
         </form>
       </div>
+    </div>
     </div>
   );
 }
