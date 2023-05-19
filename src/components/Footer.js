@@ -12,17 +12,19 @@ const Footer = () => {
             <Link href="/" className="text-lg font-bold text-white mb-4">
               Flourishers <span className="text-purple-900">Edge .</span>
             </Link>
-            <p className="text-gray-400"></p>
+            <p className="text-gray-400">Technoology Redefined</p>
           </div>
           <div className="w-full md:w-1/3 lg:w-1/4 mb-8 md:mb-0">
-            <Link href="/Support/ContactUs" className="text-lg font-bold text-white mb-4">Contact Us</Link>
+            <Link
+              href="/Support/ContactUs"
+              className="text-lg font-bold text-white mb-4"
+            >
+              Contact Us
+            </Link>
             <ul className="list-none">
               <li className="mb-2">
-                <a
-              
-                  className="text-gray-400 hover:text-white transition duration-300 ease-in-out"
-                >
-                  Email: info@flourishersedge.com
+                <a className="text-gray-400 hover:text-white transition duration-300 ease-in-out">
+                  Email: flourishers.edge2023@gmail.com
                 </a>
               </li>
               {/* <li className="mb-2">
@@ -34,10 +36,7 @@ const Footer = () => {
                 </a>
               </li> */}
               <li className="mb-2">
-                <a
-            
-                  className="text-gray-400 hover:text-white transition duration-300 ease-in-out"
-                >
+                <a className="text-gray-400 hover:text-white transition duration-300 ease-in-out">
                   Address:flourishersedge near 11 miles hausangabad road Bhopal
                   462046
                 </a>
@@ -96,7 +95,7 @@ const Footer = () => {
           </div>
         </div>
         <hr className="border-gray-800 my-8" />
-        
+
         <div className="flex flex-wrap justify-between items-center">
           <div className="w-full md:w-auto mb-4 md:mb-0">
             <p className="text-gray-400">
@@ -137,6 +136,15 @@ const Footer = () => {
                   People illustrations by Storyset
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://storyset.com/fun"
+                  className=" hover:text-white transition duration-300 ease-in-out"
+                >
+                  Fun illustrations by Storyset
+                </a>
+              </li>
+              <li><a href="https://storyset.com/people">People illustrations by Storyset</a></li>
             </ul>
           </div>
         </div>

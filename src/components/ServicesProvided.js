@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 const ServicesProvided = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center md:justify-between bg-purple-200 py-10 px-5">
+    <div className="flex flex-col md:flex-row items-center justify-center md:justify-between bg-purple-200  px-5 py-24">
       <div className="md:w-1/2 mb-10 md:mb-0 flex justify-center items-center">
         <motion.img
           animate="bubble"
