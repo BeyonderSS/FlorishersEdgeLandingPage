@@ -81,7 +81,7 @@ export default function AboutUs() {
                       crafting visually stunning websites that seamlessly blend
                       aesthetics with functionality, leaving a lasting
                       impression on your target audience. With a deep
-                      understanding of the industry's ever-evolving landscape,
+                      understanding of the industry&apos;s ever-evolving landscape,
                       we bring a harmonious fusion of simplicity and
                       effectiveness to every project, ensuring optimal results.
                       Trust us to be your trusted partner in driving your
@@ -193,7 +193,7 @@ export default function AboutUs() {
                       web design, where aesthetics meet functionality in a
                       captivating blend. Our comprehensive web solutions will
                       leave you in awe as we seamlessly integrate the latest
-                      technologies to optimize your online presence. But that's
+                      technologies to optimize your online presence. But that&apos;s
                       not all. We go above and beyond to deliver remarkable
                       results. Our commitment to customer satisfaction drives us
                       to provide personalized solutions tailored to your unique
