@@ -103,7 +103,7 @@ const ContactUs = () => {
                             <div className="grow ml-6">
                               <p className="font-bold mb-1">Addrress</p>
                               <p className="text-gray-500">
-                                flourishersedge near 11 miles hausangabad road
+                                Flourishersedge near 11 miles Houshangabad road
                                 Bhopal 462046
                               </p>
                             </div>
@@ -120,7 +120,7 @@ const ContactUs = () => {
                             <div className="grow ml-6">
                               <p className="font-bold mb-1">Email</p>
                               <p className="text-gray-500">
-                                flourishers.edge2023@gmail.com
+                                flourishersedge@gmail.com
                               </p>
                             </div>
                           </div>
