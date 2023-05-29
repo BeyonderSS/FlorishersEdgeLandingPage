@@ -12,7 +12,7 @@ const Footer = () => {
             <Link href="/" className="text-lg font-bold text-white mb-4">
               Flourishers <span className="text-purple-900">Edge .</span>
             </Link>
-            <p className="text-gray-400">Technoology Redefined</p>
+            <p className="text-gray-400">Technology Redefined</p>
           </div>
           <div className="w-full md:w-1/3 lg:w-1/4 mb-8 md:mb-0">
             <Link
@@ -24,7 +24,7 @@ const Footer = () => {
             <ul className="list-none">
               <li className="mb-2">
                 <a className="text-gray-400 hover:text-white transition duration-300 ease-in-out">
-                  Email: flourishers.edge2023@gmail.com
+                  Email: flourishersedge@gmail.com
                 </a>
               </li>
               {/* <li className="mb-2">
@@ -37,7 +37,7 @@ const Footer = () => {
               </li> */}
               <li className="mb-2">
                 <a className="text-gray-400 hover:text-white transition duration-300 ease-in-out">
-                  Address:flourishersedge near 11 miles hausangabad road Bhopal
+                  Address:flourishersedge near 11 miles Hoshangabad road Bhopal
                   462046
                 </a>
               </li>
