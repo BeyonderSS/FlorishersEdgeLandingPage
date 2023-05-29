@@ -103,7 +103,7 @@ const ContactUs = () => {
                             <div className="grow ml-6">
                               <p className="font-bold mb-1">Addrress</p>
                               <p className="text-gray-500">
-                                Flourishersedge near 11 miles Houshangabad road
+                                Flourishersedge near 11 miles Hoshangabad road
                                 Bhopal 462046
                               </p>
                             </div>
