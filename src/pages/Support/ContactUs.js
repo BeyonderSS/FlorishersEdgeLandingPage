@@ -6,7 +6,7 @@ const ContactUs = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (formData) => {
     console.log(formData);
-    window.location.href = `mailto:flourishers.edge2023@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name} & my Phone No. is ${formData.phoneNo},${formData.message} (${formData.email})`;
+    window.location.href = `mailto:flourishersedge@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name} & my Phone No. is ${formData.phoneNo},${formData.message} (${formData.email})`;
   };
 
   return (

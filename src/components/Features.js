@@ -16,7 +16,6 @@ const Features = () => {
           </h3>
           <div className="flex flex-col w-full mt-0 lg:flex-row sm:mt-10 lg:mt-20">
             <motion.div
-            
               animate="bubble"
               variants={{
                 bubble: {
@@ -43,17 +42,30 @@ const Features = () => {
                   src="/Raising hand-cuate.svg"
                   alt=""
                 />
-                <h4 className="relative mt-6 text-lg font-bold cursor-pointer">ClassCraft</h4>
+                <h4 className="relative mt-6 text-lg font-bold cursor-pointer">
+                  ClassCraft
+                </h4>
                 <p className="relative mt-2 text-base text-center text-gray-600 cursor-pointer">
                   Level up your classroom with ClassCraft - where learning meets
                   adventure.
                 </p>
                 <a
-                  href="https://florishers-edge.vercel.app/"
+                  href="https://class-craft-production.vercel.app/"
                   className="relative flex mt-2 text-sm font-medium text-indigo-500 underline cursor-pointer"
                 >
-                  Learn More
+                  Click Here - Demo
                 </a>
+                <div
+                  className="p-2 bg-indigo-800 items-center text-indigo-100 leading-none rounded-full flex lg:inline-flex pt-2"
+                  role="alert"
+                >
+                  <span className="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3">
+                    Appologies!
+                  </span>
+                  <span className="font-semibold mr-2 text-left flex-auto">
+                    Under Developmet{" "}
+                  </span>
+                </div>
               </div>
             </motion.div>
 
@@ -85,13 +97,15 @@ const Features = () => {
                   alt=""
                   className="relative w-40 h-40 cursor-pointer"
                 />
-                <h4 className="relative mt-6 text-lg font-bold cursor-pointer">WaiterLess </h4>
+                <h4 className="relative mt-6 text-lg font-bold cursor-pointer">
+                  WaiterLess{" "}
+                </h4>
                 <p className="relative mt-2 text-base text-center text-gray-600 cursor-pointer">
-                  Transform your dining experience with WaiterLess - the app
+                  Transform your dining experience with WaiterLess - the web app
                   that makes every meal effortless.
                 </p>
                 <a
-                  href=""
+                  href="http://waiterless.tech/"
                   className="cursor-pointer relative flex mt-2 text-sm font-medium text-indigo-500 underline"
                 >
                   Learn More
@@ -127,7 +141,9 @@ const Features = () => {
                   alt=""
                   className="relative w-40 h-40 cursor-pointer"
                 />
-                <h4 className="relative mt-6 text-lg font-bold cursor-pointer">FluidView</h4>
+                <h4 className="relative mt-6 text-lg font-bold cursor-pointer">
+                  FluidView
+                </h4>
                 <p className="relative mt-2 text-base text-center text-gray-600 cursor-pointer">
                   Unleash the power of fluidity with FluidView - the CRM
                   platform that adapts to your business.
