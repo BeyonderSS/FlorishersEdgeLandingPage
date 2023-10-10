@@ -13,7 +13,7 @@ const Header = () => {
   const { pathname } = useRouter();
   console.log(pathname);
   return (
-    <header className="bg-transparent backdrop-blur-lg bg-white shadow-lg z-50 fixed w-full">
+    <header className="bg-transparent backdrop-blur-lg  shadow-lg z-50 fixed w-full">
       <nav className="container mx-auto px-4 py-3 flex justify-between items-center ">
         <Link href="/" className="font-bold text-2xl py-2  ">
           Flourishers <span className="text-[#F767A4]">Edge .</span>
