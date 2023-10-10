@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,43 +10,46 @@ const Header = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-
+  const { pathname } = useRouter();
+  console.log(pathname);
   return (
-    <header className="bg-white shadow-lg z-50">
+    <header className="bg-transparent backdrop-blur-lg bg-white shadow-lg z-50 fixed w-full">
       <nav className="container mx-auto px-4 py-3 flex justify-between items-center ">
         <Link href="/" className="font-bold text-2xl py-2  ">
-          Flourishers <span className="text-purple-600">Edge .</span>
+          Flourishers <span className="text-[#F767A4]">Edge .</span>
         </Link>
         <div className="hidden md:block">
           <ul className="flex space-x-4">
             <li>
-              <a
-                href="#Hero"
-                className="text-gray-600 hover:text-purple-500 transition duration-300"
+              <Link
+                href={`${pathname == "/" ? "#hero" : "/#hero"}`}
+                className="text-white font-semibold text-lg  hover:text-pink-900 transition duration-300"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#Features"
-                className="text-gray-600 hover:text-purple-500 transition duration-300"
+              <Link
+                href={`${pathname == "/" ? "#Features" : "/#Features"}`}
+                className="text-white font-semibold text-lg  hover:text-pink-900  transition duration-300"
               >
                 Our Products
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#ServicesProvided"
-                className="text-gray-600 hover:text-purple-500 transition duration-300"
+              <Link
+                href={`${
+                  pathname == "/" ? "#ServicesProvided" : "/#ServicesProvided"
+                }`}
+                className="text-white font-semibold text-lg  hover:text-pink-900  transition duration-300"
               >
                 Services
-              </a>
+              </Link>
             </li>
             <li>
               <Link
                 href="/Support/ContactUs"
-                className="text-gray-600 hover:text-purple-500 transition duration-300"
+                className="text-white font-semibold text-lg  hover:text-pink-900  transition duration-300"
               >
                 Get In touch
               </Link>
@@ -72,33 +76,35 @@ const Header = () => {
         >
           <ul className="flex flex-col space-y-4 px-4 py-2">
             <li>
-              <a
-                href="#Hero"
-                className="text-gray-600 hover:text-purple-500 transition duration-300"
+              <Link
+                href={`${pathname == "/" ? "#hero" : "/#hero"}`}
+                className="text-gray-600 hover:text-pink-900  transition duration-300"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#Features"
-                className="text-gray-600 hover:text-purple-500 transition duration-300"
+              <Link
+                href={`${pathname == "/" ? "#Features" : "/#Features"}`}
+                className="text-gray-600 hover:text-pink-900  transition duration-300"
               >
                 Our Key Products
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#ServicesProvided"
-                className="text-gray-600 hover:text-purple-500 transition duration-300"
+              <Link
+                href={`${
+                  pathname == "/" ? "#ServicesProvided" : "/#ServicesProvided"
+                }`}
+                className="text-gray-600 hover:text-pink-900  transition duration-300"
               >
                 Services We Provide
-              </a>
+              </Link>
             </li>
             <li>
               <Link
                 href="/Support/ContactUs"
-                className="text-gray-600 hover:text-purple-500 transition duration-300"
+                className="text-gray-600 hover:text-pink-900  transition duration-300"
               >
                 Get In touch
               </Link>
