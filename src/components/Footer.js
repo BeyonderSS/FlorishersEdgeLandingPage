@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/3 lg:w-1/4 mb-8 md:mb-0">
             <Link href="/" className="text-lg font-bold text-white mb-4">
-              Flourishers <span className="text-purple-900">Edge .</span>
+              Flourishers <span className="text-[#0802A3]">Edge .</span>
             </Link>
             <p className="text-gray-400">Technology Redefined</p>
           </div>

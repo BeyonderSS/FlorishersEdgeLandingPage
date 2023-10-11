@@ -19,7 +19,7 @@ const Features = () => {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill="#FF0066"
+                fill="#0802A3"
                 d="M35.9,-49.7C40,-46.3,32.5,-27.2,38.6,-11.8C44.7,3.7,64.3,15.5,69.1,29.2C73.9,42.9,63.9,58.5,49.9,60C35.9,61.5,18,48.8,5.7,41C-6.6,33.2,-13.3,30.3,-28.2,29.1C-43.1,27.9,-66.3,28.5,-73.3,20.6C-80.4,12.7,-71.3,-3.8,-61.8,-16.2C-52.4,-28.6,-42.7,-37,-32.3,-38.3C-22,-39.7,-11,-34,2.4,-37.4C15.9,-40.7,31.7,-53.1,35.9,-49.7Z"
                 transform="translate(100 100)"
               />
@@ -34,7 +34,7 @@ const Features = () => {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill="#FF0066"
+                fill="#0802A3"
                 d="M37.4,-51.2C48.2,-43.7,56.4,-32.3,61.1,-19.5C65.8,-6.6,67,7.8,65.6,24.2C64.2,40.6,60.2,59,48.8,62.4C37.5,65.9,18.7,54.4,0.3,54C-18.2,53.7,-36.5,64.5,-45.2,60.2C-54,55.9,-53.3,36.5,-57.7,19.6C-62.1,2.6,-71.5,-11.8,-72.5,-28.1C-73.4,-44.3,-65.9,-62.4,-52.4,-69C-38.9,-75.7,-19.5,-71,-3.1,-66.7C13.3,-62.5,26.6,-58.7,37.4,-51.2Z"
                 transform="translate(100 100)"
               />
@@ -42,7 +42,7 @@ const Features = () => {
           </motion.div>
         </div>
         <div className="container relative z-10 flex flex-col items-center justify-between h-full max-w-6xl mx-auto">
-          <h2 className="my-5 text-base font-medium tracking-tight text-pink-500 uppercase">
+          <h2 className="my-5 text-base font-medium tracking-tight text-[#0802A3] uppercase">
             Our Products
           </h2>
           <h3 className="max-w-2xl px-5 mt-2 text-3xl font-black leading-tight text-center text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl">
@@ -85,7 +85,7 @@ const Features = () => {
                 </p>
                 <Link
                   href="https://class-craft-production.vercel.app/"
-                  className="relative flex mt-2 text-sm font-medium text-pink-500 underline cursor-pointer"
+                  className="relative flex mt-2 text-sm font-medium text-[#0802A3] underline cursor-pointer"
                 >
                   Learn More
                 </Link>
@@ -129,7 +129,7 @@ const Features = () => {
                 </p>
                 <Link
                   href="http://waiterless.tech/"
-                  className="cursor-pointer relative flex mt-2 text-sm font-medium text-pink-500 underline"
+                  className="cursor-pointer relative flex mt-2 text-sm font-medium text-[#0802A3] underline"
                 >
                   Learn More
                 </Link>

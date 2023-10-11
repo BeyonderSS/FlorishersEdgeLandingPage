@@ -16,14 +16,14 @@ const Header = () => {
     <header className="bg-transparent backdrop-blur-lg  shadow-lg z-50 fixed w-full">
       <nav className="container mx-auto px-4 py-3 flex justify-between items-center ">
         <Link href="/" className="font-bold text-2xl py-2  ">
-          Flourishers <span className="text-[#F767A4]">Edge .</span>
+          Flourishers <span className="text-[#0802A3]">Edge .</span>
         </Link>
         <div className="hidden md:block">
           <ul className="flex space-x-4">
             <li>
               <Link
                 href={`${pathname == "/" ? "#hero" : "/#hero"}`}
-                className="text-pink-100 font-semibold text-lg  hover:text-pink-900 transition duration-300"
+                className="text-pink-100 font-semibold text-lg  hover:text-[#0802A3] transition duration-300"
               >
                 Home
               </Link>
@@ -31,7 +31,7 @@ const Header = () => {
             <li>
               <Link
                 href={`${pathname == "/" ? "#Features" : "/#Features"}`}
-                className="text-pink-100 font-semibold text-lg  hover:text-pink-900  transition duration-300"
+                className="text-pink-100 font-semibold text-lg  hover:text-[#0802A3]  transition duration-300"
               >
                 Our Products
               </Link>
@@ -41,7 +41,7 @@ const Header = () => {
                 href={`${
                   pathname == "/" ? "#ServicesProvided" : "/#ServicesProvided"
                 }`}
-                className="text-pink-100 font-semibold text-lg  hover:text-pink-900  transition duration-300"
+                className="text-pink-100 font-semibold text-lg  hover:text-[#0802A3]  transition duration-300"
               >
                 Services
               </Link>
@@ -49,7 +49,7 @@ const Header = () => {
             <li>
               <Link
                 href="/Support/ContactUs"
-                className="text-pink-100 font-semibold text-lg  hover:text-pink-900  transition duration-300"
+                className="text-pink-100 font-semibold text-lg  hover:text-[#0802A3]  transition duration-300"
               >
                 Get In touch
               </Link>
@@ -78,7 +78,7 @@ const Header = () => {
             <li>
               <Link
                 href={`${pathname == "/" ? "#hero" : "/#hero"}`}
-                className="text-gray-600 hover:text-pink-900  transition duration-300"
+                className="text-gray-600 hover:text-[#0802A3]  transition duration-300"
               >
                 Home
               </Link>
@@ -86,7 +86,7 @@ const Header = () => {
             <li>
               <Link
                 href={`${pathname == "/" ? "#Features" : "/#Features"}`}
-                className="text-gray-600 hover:text-pink-900  transition duration-300"
+                className="text-gray-600 hover:text-[#0802A3]  transition duration-300"
               >
                 Our Key Products
               </Link>
@@ -96,7 +96,7 @@ const Header = () => {
                 href={`${
                   pathname == "/" ? "#ServicesProvided" : "/#ServicesProvided"
                 }`}
-                className="text-gray-600 hover:text-pink-900  transition duration-300"
+                className="text-gray-600 hover:text-[#0802A3]  transition duration-300"
               >
                 Services We Provide
               </Link>
@@ -104,7 +104,7 @@ const Header = () => {
             <li>
               <Link
                 href="/Support/ContactUs"
-                className="text-gray-600 hover:text-pink-900  transition duration-300"
+                className="text-gray-600 hover:text-[#0802A3]  transition duration-300"
               >
                 Get In touch
               </Link>

@@ -17,7 +17,7 @@ const ServicesProvided = () => {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill="#FF0066"
+              fill="#0802A3"
               d="M36.1,-47.2C51,-38.9,70.2,-34,78.7,-22.2C87.2,-10.4,84.9,8.2,72.8,16.9C60.7,25.6,38.7,24.3,24.9,30.2C11.1,36.1,5.6,49.3,-2,52C-9.5,54.7,-19.1,47.1,-34.9,41.8C-50.7,36.5,-72.7,33.7,-81.3,22.7C-89.9,11.8,-85,-7.1,-73.7,-18.4C-62.4,-29.6,-44.5,-33.2,-31.1,-41.9C-17.8,-50.7,-8.9,-64.7,0.9,-65.9C10.6,-67.1,21.2,-55.5,36.1,-47.2Z"
               transform="translate(100 100)"
             />
@@ -57,7 +57,7 @@ const ServicesProvided = () => {
             </p>
             <Link
               href="/Support/ContactUs"
-              className="text-pink-600 hover:text-pink-800 font-bold"
+              className="text-[#0802A3] hover:text-pink-800 font-bold"
             >
               Get In Touch
             </Link>
@@ -70,7 +70,7 @@ const ServicesProvided = () => {
             </p>
             <Link
               href="/Support/ContactUs"
-              className="text-pink-600 hover:text-pink-800 font-bold"
+              className="text-[#0802A3] hover:text-pink-800 font-bold"
             >
               Get In Touch
             </Link>
@@ -83,7 +83,7 @@ const ServicesProvided = () => {
             </p>
             <Link
               href="/Support/ContactUs"
-              className="text-pink-600 hover:text-pink-800 font-bold"
+              className="text-[#0802A3] hover:text-pink-800 font-bold"
             >
               Get In Touch
             </Link>
@@ -96,7 +96,7 @@ const ServicesProvided = () => {
             </p>
             <Link
               href="/Support/ContactUs"
-              className="text-pink-600 hover:text-pink-800 font-bold"
+              className="text-[#0802A3] hover:text-pink-800 font-bold"
             >
               Get In Touch
             </Link>
