@@ -1,4 +1,3 @@
-
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -28,7 +27,7 @@ const services = [
   },
 ];
 
-const ServicesProvided = () => {
+const Test = () => {
   return (
     <div className="md:h-screen flex flex-col md:flex-row pt-24 relative overflow-hidden">
       {/* Bottom left Corner SVG */}
@@ -37,7 +36,7 @@ const ServicesProvided = () => {
             initial={{ opacity: 0, pathLength: 0, y: 100, x: -100 }}
             animate={{ opacity: 1, pathLength: 1, y: 0, x: 0 }}
             transition={{ duration: 0.5, delay: 0.8 }}
-            className="absolute w-full h-auto -bottom-[100vh] -left-[900px]  "
+            className="absolute w-full h-auto -bottom-[100vh] -left-[900px] "
             src="/bgBlob.svg"
             alt=""
           />
@@ -75,14 +74,14 @@ const ServicesProvided = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 1 + index * 0.2 }}
               className="p-8  rounded-2xl shadow-xl text-center">
-              <div className="text-[#7169C8] text-4xl mb-2 flex justify-center items-center p-4">{service.icon}</div>
+              <div className="text-[#0802A3] text-4xl mb-2 flex justify-center items-center p-4">{service.icon}</div>
               <span className="text-xl font-semibold mb-2">{service.title}</span>
               <p className="text-gray-600">{service.description}</p>
             </motion.div>
           ))}
         </div>
         <Link href="/Support/ContactUs">
-          <div className="mt-4 bg-[#7169C8]/90  hover:bg-[#7169C8] text-white font-semibold py-2 px-4 rounded">
+          <div className="mt-4 bg-[#0802A3]/90  hover:bg-[#0802A3] text-white font-semibold py-2 px-4 rounded">
             Get In Touch
           </div>
         </Link>
@@ -91,4 +90,4 @@ const ServicesProvided = () => {
   );
 };
 
-export default ServicesProvided;
+export default Test;

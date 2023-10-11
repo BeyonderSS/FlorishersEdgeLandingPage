@@ -44,10 +44,10 @@ const Hero = () => {
       <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between h-full md:pt-0 lg:pt-0 pt-28 lg:mx-10 md:mx-6">
         {/* Content on the left */}
         <article className="md:w-1/2 p-8 md:p-12 text-center md:text-left">
-          <h1 className="text-5xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h1 className="text-5xl md:text-5xl font-bold  mb-4">
             Explore. Innovate. Flourish.
           </h1>
-          <p className="text-lg md:text-md text-gray-600 mb-8">
+          <p className="text-lg md:text-md text-gray-900 mb-8">
             We specialize in all things web, from creating stunning websites
             that captivate your audience to crafting robust web applications
             that power your business. Our team of tech enthusiasts and creative

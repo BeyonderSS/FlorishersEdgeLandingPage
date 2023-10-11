@@ -23,7 +23,7 @@ const Header = () => {
             <li>
               <Link
                 href={`${pathname == "/" ? "#hero" : "/#hero"}`}
-                className="text-pink-100 font-semibold text-lg  hover:text-[#0802A3] transition duration-300"
+                className="text-purple-100 font-semibold text-lg  hover:text-[#0802A3] transition duration-300"
               >
                 Home
               </Link>
@@ -31,7 +31,7 @@ const Header = () => {
             <li>
               <Link
                 href={`${pathname == "/" ? "#Features" : "/#Features"}`}
-                className="text-pink-100 font-semibold text-lg  hover:text-[#0802A3]  transition duration-300"
+                className="text-purple-100 font-semibold text-lg  hover:text-[#0802A3]  transition duration-300"
               >
                 Our Products
               </Link>
@@ -41,7 +41,7 @@ const Header = () => {
                 href={`${
                   pathname == "/" ? "#ServicesProvided" : "/#ServicesProvided"
                 }`}
-                className="text-pink-100 font-semibold text-lg  hover:text-[#0802A3]  transition duration-300"
+                className="text-purple-100 font-semibold text-lg  hover:text-[#0802A3]  transition duration-300"
               >
                 Services
               </Link>
@@ -49,7 +49,7 @@ const Header = () => {
             <li>
               <Link
                 href="/Support/ContactUs"
-                className="text-pink-100 font-semibold text-lg  hover:text-[#0802A3]  transition duration-300"
+                className="text-purple-100 font-semibold text-lg  hover:text-[#0802A3]  transition duration-300"
               >
                 Get In touch
               </Link>
