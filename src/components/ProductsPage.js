@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const ProductsPage = () => {
   return (
@@ -31,13 +32,13 @@ const ProductsPage = () => {
           Our Projects
         </h1>
         <p className="text-lg text-gray-600 mb-6">
-          Explore a world of innovation and creativity! If you've enjoyed the
+          Explore a world of innovation and creativity! If you&apos;ve enjoyed the
           magic of Class Craft and the convenience of Waiterless, get ready to
           be amazed by our other groundbreaking projects. Your adventure starts
           here.
         </p>
 
-        <a href="/projects" style={{ "--clr": " #7169C8" }} className="button">
+        <Link href="/projects" style={{ "--clr": " #7169C8" }} className="button">
           <span className="button__icon-wrapper">
             <svg
               width={10}
@@ -65,7 +66,7 @@ const ProductsPage = () => {
             </svg>
           </span>
           Explore All
-        </a>
+        </Link>
       </div>
     </div>
   );
