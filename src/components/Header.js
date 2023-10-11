@@ -22,7 +22,7 @@ const Header = () => {
           <ul className="flex space-x-4">
             <li>
               <Link
-                href={`${pathname == "/" ? "#hero" : "/#hero"}`}
+                href={`${pathname == "/" ? "#Hero" : "/#Hero"}`}
                 className="text-purple-100 font-semibold text-lg  hover:text-[#0802A3] transition duration-300"
               >
                 Home
@@ -77,7 +77,7 @@ const Header = () => {
           <ul className="flex flex-col space-y-4 px-4 py-2">
             <li>
               <Link
-                href={`${pathname == "/" ? "#hero" : "/#hero"}`}
+                href={`${pathname == "/" ? "#Hero" : "/#Hero"}`}
                 className="text-gray-600 hover:text-[#0802A3]  transition duration-300"
               >
                 Home
