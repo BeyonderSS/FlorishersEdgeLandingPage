@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import { BsFillEnvelopeFill, BsFillPinMapFill } from "react-icons/bs";
+import { BsFillEnvelopeFill, BsFillPinMapFill, BsFillTelephoneFill } from "react-icons/bs";
 
 const ContactUs = () => {
   const { register, handleSubmit } = useForm();
@@ -97,11 +97,11 @@ const ContactUs = () => {
                           <div className="flex items-start">
                             <div className="shrink-0">
                               <div className="p-4 bg-purple-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                                <BsFillPinMapFill className="text-4xl text-white"/>
+                                <BsFillPinMapFill className="text-4xl text-white" />
                               </div>
                             </div>
                             <div className="grow ml-6">
-                              <p className="font-bold mb-1">Addrress</p>
+                              <p className="font-bold mb-1">Address</p>
                               <p className="text-gray-500">
                                 Flourishersedge near 11 miles Hoshangabad road
                                 Bhopal 462046
@@ -114,7 +114,7 @@ const ContactUs = () => {
                           <div className="flex align-start">
                             <div className="shrink-0">
                               <div className="p-4 bg-purple-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                                <BsFillEnvelopeFill className="text-4xl text-white"/>
+                                <BsFillEnvelopeFill className="text-4xl text-white" />
                               </div>
                             </div>
                             <div className="grow ml-6">
@@ -122,6 +122,20 @@ const ContactUs = () => {
                               <p className="text-gray-500">
                                 flourishersedge@gmail.com
                               </p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
+                          <div className="flex align-start">
+                            <div className="shrink-0">
+                              <div className="p-4 bg-purple-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                                <BsFillTelephoneFill className="text-4xl text-white" />
+                              </div>
+                            </div>
+                            <div className="grow ml-6">
+                              <p className="font-bold mb-1">Phone No.</p>
+                              <p className="text-gray-500">+917869088589</p>
                             </div>
                           </div>
                         </div>

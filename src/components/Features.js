@@ -136,61 +136,7 @@ const Features = () => {
               </div>
             </motion.div>
 
-            <motion.div
-              animate="bubble"
-              variants={{
-                bubble: {
-                  x: [0, 5, -5, 10, -10, 0],
-                  y: [0, 10, -10, 5, -5, 0],
-                  transition: {
-                    duration: 15,
-                    ease: "easeInOut",
-                    repeat: Infinity,
-                    repeatType: "reverse",
-                  },
-                },
-              }}
-              className="w-full max-w-md p-4 mx-auto mb-16 lg:mb-0 lg:w-1/3"
-            >
-              <div className="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
-                <img
-                  src="/feature5.svg"
-                  alt=""
-                  className="absolute cursor-pointer md:w-full md:h-full h-96 w-96 text-gray-100 opacity-5 fill-current"
-                />
-                {/* <!-- FEATURE Icon 3 --> */}
-                <img
-                  src="Company-amico.svg"
-                  alt=""
-                  className="relative w-40 h-40 cursor-pointer"
-                />
-                <h4 className="relative mt-6 text-lg font-bold cursor-pointer">
-                  FluidView
-                </h4>
-                <p className="relative mt-2 text-base text-center text-gray-600 cursor-pointer">
-                  Unleash the power of fluidity with FluidView - the CRM
-                  platform that adapts to your business.
-                </p>
-                {/* <a
-                  href=""
-                  className="relative flex mt-2 text-sm font-medium text-pink-500 underline"
-                >
-                  Learn More
-                </a> */}
-
-                <div
-                  className="p-2 bg-pink-800 items-center text-pink-100 leading-none rounded-full flex lg:inline-flex pt-2"
-                  role="alert"
-                >
-                  <span className="flex rounded-full bg-pink-500 uppercase px-2 py-1 text-xs font-bold mr-3">
-                    Appologies!
-                  </span>
-                  <span className="font-semibold mr-2 text-left flex-auto">
-                    Under Developmet{" "}
-                  </span>
-                </div>
-              </div>
-            </motion.div>
+          
           </div>
         </div>
       </div>
