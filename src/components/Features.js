@@ -27,7 +27,7 @@ const Features = () => {
       </div>
       <div className="container relative z-10 flex flex-col items-center justify-between h-full max-w-6xl mx-auto">
         <h2 className="my-5 text-base font-medium tracking-tight text-[#0802A3] uppercase">
-          Our Products
+          Our Highlights
         </h2>
         <h3 className="max-w-2xl px-5 mt-2 text-3xl font-black leading-tight text-center text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl">
           Built and Designed with you in Mind
@@ -49,7 +49,7 @@ const Features = () => {
             }}
             className="w-full max-w-md p-4 mx-auto mb-0 sm:mb-16 lg:mb-0 lg:w-1/3 "
           >
-            <div className="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg curs">
+            <div className="relative z-20 flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg curs">
               <img
                 className="absolute w-full h-full opacity-5 fill-current cursor-pointer"
                 src="/feature1.svg"
@@ -68,7 +68,7 @@ const Features = () => {
                 adventure.
               </p>
               <Link
-                href="https://class-craft-production.vercel.app/"
+                href="/products/Class Craft"
                 className=" flex mt-2 text-sm font-medium text-[#0802A3] underline cursor-pointer"
               >
                 Learn More
@@ -112,7 +112,7 @@ const Features = () => {
                 that makes every meal effortless.
               </p>
               <Link
-                href="http://waiterless.tech/"
+                href="/products/Waiterless"
                 className="cursor-pointer relative flex mt-2 text-sm font-medium text-[#0802A3] underline"
               >
                 Learn More

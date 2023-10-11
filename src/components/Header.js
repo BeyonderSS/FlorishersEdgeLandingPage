@@ -33,7 +33,15 @@ const Header = () => {
                 href={`${pathname == "/" ? "#Features" : "/#Features"}`}
                 className="text-purple-100 font-semibold text-lg  hover:text-[#0802A3]  transition duration-300"
               >
-                Our Products
+                Our Highlights
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={`${pathname == "/" ? "#Projects" : "/#Projects"}`}
+                className="text-purple-100 font-semibold text-lg  hover:text-[#0802A3]  transition duration-300"
+              >
+                Our Projects
               </Link>
             </li>
             <li>
@@ -88,7 +96,15 @@ const Header = () => {
                 href={`${pathname == "/" ? "#Features" : "/#Features"}`}
                 className="text-gray-600 hover:text-[#0802A3]  transition duration-300"
               >
-                Our Key Products
+                Our Highlight
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={`${pathname == "/" ? "#Projects" : "/#Projects"}`}
+                className="text-gray-600 hover:text-[#0802A3]  transition duration-300"
+              >
+                Our Projects
               </Link>
             </li>
             <li>

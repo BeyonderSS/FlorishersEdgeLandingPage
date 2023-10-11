@@ -81,11 +81,11 @@ const ServicesProvided = () => {
             </motion.div>
           ))}
         </div>
-        <Link href="/Support/ContactUs">
+        {/* <Link href="/Support/ContactUs">
           <div className="mt-4 bg-[#7169C8]/90  hover:bg-[#7169C8] text-white font-semibold py-2 px-4 rounded">
             Get In Touch
           </div>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

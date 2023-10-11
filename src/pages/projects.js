@@ -2,7 +2,7 @@ import Projects from "@/components/Projects";
 import { createClient } from "next-sanity";
 import React from "react";
 
-const test = ({ productsData }) => {
+const projects = ({ productsData }) => {
   return (
     <div>
       <Projects productsData={productsData} />
@@ -10,8 +10,7 @@ const test = ({ productsData }) => {
   );
 };
 
-export default test;
-
+export default projects;
 export async function getServerSideProps(context) {
   const client = createClient({
     projectId: "vxm1y89n",
@@ -20,14 +19,14 @@ export async function getServerSideProps(context) {
   });
 
   const query = `*[_type == "projects"] {
-    title,
-    description,
-    shortDescription,
-    "imageURLs": mockups[].asset->url,
-    link,
-    _id
-  }
-  `;
+      title,
+      description,    shortDescription,
+  
+      "imageURLs": mockups[].asset->url,
+      link,
+      _id
+    }
+    `;
 
   const productsData = await client.fetch(query);
 
