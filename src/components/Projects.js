@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { AiOutlineProject } from "react-icons/ai"; // Example icon, you can choose a different one
@@ -14,7 +15,6 @@ const Projects = ({ productsData }) => {
 
     return () => clearTimeout(delay);
   }, []);
-
   return (
     <div className="h-screen pt-24 ">
       <div className="flex justify-center items-center">
@@ -25,7 +25,7 @@ const Projects = ({ productsData }) => {
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-10 ">
         {showCards &&
           productsData.map((product) => (
-            <Link href={`/products/${product.title}`} key={product._id}>
+            <Link href={`/projects/${product._id}`} key={product._id}>
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}

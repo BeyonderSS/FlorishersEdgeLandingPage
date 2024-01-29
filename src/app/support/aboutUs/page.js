@@ -1,7 +1,9 @@
+import ContactUs from "@/components/ContactUs";
 import React from "react";
-import ContactUs from "./ContactUs";
-
-export default function AboutUs() {
+export const metadata={
+  title:"About Us"
+}
+export default function aboutUs() {
   return (
     <div className="bg-purple-100">
       <div>

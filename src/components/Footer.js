@@ -9,14 +9,14 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/3 lg:w-1/4 mb-8 md:mb-0">
-            <Link href="/" className="text-lg font-bold text-white mb-4">
+            <Link href="/#Hero" className="text-lg font-bold text-white mb-4">
               Flourishers <span className="text-[#0802A3]">Edge .</span>
             </Link>
             <p className="text-gray-400">Technology Redefined</p>
           </div>
           <div className="w-full md:w-1/3 lg:w-1/4 mb-8 md:mb-0">
             <Link
-              href="/Support/ContactUs"
+              href="/support/contactUs"
               className="text-lg font-bold text-white mb-4"
             >
               Contact Us
@@ -48,7 +48,7 @@ const Footer = () => {
             <ul className="list-none">
               <li className="mb-2">
                 <Link
-                  href="/Support/TermsAndConditions"
+                  href="/support/termsAndConditions"
                   className="text-gray-400 hover:text-white transition duration-300 ease-in-out"
                 >
                   Terms and Conditions
@@ -56,7 +56,7 @@ const Footer = () => {
               </li>
               <li className="mb-2">
                 <Link
-                  href="/Support/AboutUs"
+                  href="/support/aboutUs"
                   className="text-gray-400 hover:text-white transition duration-300 ease-in-out"
                 >
                   About Us
@@ -96,14 +96,14 @@ const Footer = () => {
         </div>
         <hr className="border-gray-800 my-8" />
 
-        <div className="flex flex-wrap justify-between items-center">
-          <div className="w-full md:w-auto mb-4 md:mb-0">
-            <p className="text-gray-400">
+          <div className="w-full md:w-auto mb-4 md:mb-0 ">
+            <p className="text-gray-400 text-center ">
               &copy; {currentYear} Flourishers Edge. All rights reserved.
             </p>
           </div>
+        <div className="flex flex-wrap justify-between items-center">
           <div className="w-full md:w-auto">
-            <ul className="list-none  text-gray-900">
+            <ul className="list-none  text-gray-900 flex md:flex-row lg:flex-row flex-col">
               <li className="mr-4">
                 <a
                   href="https://storyset.com/business"

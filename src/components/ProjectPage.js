@@ -1,15 +1,11 @@
-import { useRouter } from "next/router";
+"use client";
 import React from "react";
-import { createClient } from "next-sanity";
 import { motion } from "framer-motion";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-const Product = ({ productsData }) => {
-  const router = useRouter();
-  const product = router.query.product;
-  const productInfo = productsData.find((item) => item.title === product);
-  console.log(productInfo.imageURLs);
+
+function ProjectPage({ productInfo }) {
   return (
     <div className="min-h-screen  flex items-center justify-center relative overflow-hidden lg:pt-0 pt-20">
       <div className="absolute inset-0">
@@ -103,14 +99,16 @@ const Product = ({ productsData }) => {
               <p className="text-md  md:text-lg lg:text-lg text-gray-600 mb-4">
                 {productInfo.description}
               </p>
-              <a
-                href={productInfo.link}
-                className="flex items-center justify-center bg-gray-200 rounded-3xl p-4 text-[#0802A3] font-semibold text-lg md:text-xl lg:text-2xl"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Check Live Demo <FaExternalLinkAlt className="ml-2" />
-              </a>
+              {productInfo.link && (
+                <a
+                  href={productInfo.link}
+                  className="flex items-center justify-center bg-gray-200 rounded-3xl p-4 text-[#0802A3] font-semibold text-lg md:text-xl lg:text-2xl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Check Live Demo <FaExternalLinkAlt className="ml-2" />
+                </a>
+              )}
             </motion.div>
           ) : (
             <p className="text-2xl md:text-3xl lg:text-4xl text-white">
@@ -121,31 +119,6 @@ const Product = ({ productsData }) => {
       </div>
     </div>
   );
-};
-
-export default Product;
-
-export async function getServerSideProps(context) {
-  const client = createClient({
-    projectId: "vxm1y89n",
-    dataset: "test",
-    useCdn: false,
-  });
-
-  const query = `*[_type == "projects"] {
-    title,
-    description,
-    "imageURLs": mockups[].asset->url,
-    link,
-    _id
-  }
-  `;
-
-  const productsData = await client.fetch(query);
-
-  return {
-    props: {
-      productsData,
-    },
-  };
 }
+
+export default ProjectPage;

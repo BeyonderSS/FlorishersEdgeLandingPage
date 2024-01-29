@@ -1,8 +1,9 @@
+"use client"
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,12 +11,12 @@ const Header = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-  const { pathname } = useRouter();
+  const pathname = usePathname();
   console.log(pathname);
   return (
     <header className="bg-transparent backdrop-blur-lg  shadow-lg z-50 fixed w-full">
       <nav className="container mx-auto px-4 py-3 flex justify-between items-center ">
-        <Link href="/" className="font-bold text-2xl py-2  ">
+        <Link href="/#Hero" className="font-bold text-2xl py-2  ">
           Flourishers <span className="text-[#0802A3]">Edge .</span>
         </Link>
         <div className="hidden md:block">
@@ -56,7 +57,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="/Support/ContactUs"
+                href="/support/contactUs"
                 className="text-purple-100 font-semibold text-lg  hover:text-[#0802A3]  transition duration-300"
               >
                 Get In touch
@@ -119,7 +120,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="/Support/ContactUs"
+                href="/support/contactUs"
                 className="text-gray-600 hover:text-[#0802A3]  transition duration-300"
               >
                 Get In touch
