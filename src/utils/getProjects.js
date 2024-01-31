@@ -3,10 +3,10 @@ import { createClient } from "next-sanity";
 
 // sanity clientt insitialisation
 const client = createClient({
-  projectId: "vxm1y89n",
-  dataset: "test",
+  projectId: process.env.SANITY_PROJECTID,
+  dataset: process.env.SANITY_DATASET,
   useCdn: false,
-  apiVersion: "2021-10-21",
+  apiVersion: process.env.SANITY_API_VERSION,
 });
 // caching data to avoid multiple calls
 export const getProjects = cache(async () => {
